@@ -1,0 +1,11 @@
+msgid "plugins.generic.liteSpeed.displayName"
+msgstr "LiteSpeed / LSCache"
+
+msgid "plugins.generic.liteSpeed.description"
+msgstr "This plugin integrates OJS with LiteSpeed Cache or LSCache"
+
+msgid "plugins.generic.liteSpeed.clearCache"
+msgstr "Clear Cache"
+
+msgid "plugins.generic.liteSpeed.clearCacheDone"
+msgstr "Cleared!"
