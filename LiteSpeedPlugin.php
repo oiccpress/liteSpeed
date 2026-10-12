@@ -76,6 +76,8 @@ class LiteSpeedPlugin extends GenericPlugin {
         if(!$request->getUser() && !$this->backendPage && $_SERVER['REQUEST_METHOD'] == 'GET') {
             // cache for 1 hour
             header('X-LiteSpeed-Cache-Control: public,max-age=3600');
+            // tell cdn to cache for 30 mins
+            header('Cloudflare-CDN-Cache-Control: max-age=1800');
         }
 
         if($request->getUser()) {
